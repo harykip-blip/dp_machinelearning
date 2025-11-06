@@ -4,6 +4,6 @@ st.title('🎈 App Name')
 
 st.write('Hello world!')
 
-st.label('this is a machine learning app')
+st.info('this is a machine learning app')
 
 
