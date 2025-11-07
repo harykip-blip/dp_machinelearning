@@ -43,7 +43,7 @@ with st.sidebar:
   st.write(f"**flipper length:** {flipper_length_mm} mm")
   st.write(f"**body mass:** {body_mass_g} g")
 
-data= {'island',island
+data= {'island':island,
       'bill_length_mm ': bill_length_mm,
        'bill_depth_mm': bill_depth_mm,
        'flipper_length_mm': flipper_length_mm,
