@@ -38,9 +38,9 @@ with st.sidebar:
   st.write(f"**Island:** {island}")
   st.write(f"**Gender:** {gender}")
   st.write(f"**Bill length:** {bill_length_mm} mm")
-  st.write(f"**Bill depth:**{bill_depth_mm} mm")
-  st.write(f"**flipper length:**{flipper_length_mm} mm")
-  st.write(f"**body mass:**{body_mass_g} g")
+  st.write(f"**Bill depth:** {bill_depth_mm} mm")
+  st.write(f"**flipper length: **{flipper_length_mm} mm")
+  st.write(f"**body mass:** {body_mass_g} g")
               
 
 
