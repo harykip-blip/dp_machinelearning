@@ -27,12 +27,12 @@ with st.expander ('Data visualization'):
 with st.sidebar:
   st.header('input features')
  
-island= st.selectbox('island',('Biscoe','Dream','Torgersen'))
-gender=st.selectbox('Gender',('male','female'))
-bill_length_mm= st.slider('bill length (mm)',32.1,59.6,43.9) 
+  island= st.selectbox('island',('Biscoe','Dream','Torgersen'))
+  gender=st.selectbox('Gender',('male','female'))
+  bill_length_mm= st.slider('bill length (mm)',32.1,59.6,43.9) 
 
-st.header("Your Selected Inputs")
-st.write(f"**Island:** {island}")
-st.write(f"**Gender:** {gender}")
-st.write(f"**Bill length:** {bill_length_mm} mm")
+  st.header("Your Selected Inputs")
+  st.write(f"**Island:** {island}")
+  st.write(f"**Gender:** {gender}")
+    st.write(f"**Bill length:** {bill_length_mm} mm")
               
