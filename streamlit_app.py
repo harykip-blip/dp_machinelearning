@@ -31,7 +31,7 @@ island= st.selectbox('island',('Biscoe','Dream','Torgersen'))
 gender=st.selectbox('Gender',('male','female'))
 bill_length_mm= st.slider('bill length (mm)',32.1,59.6,43.9) 
 
-st.sidebar("Your Selected Inputs")
+st.header("Your Selected Inputs")
 st.write(f"**Island:** {island}")
 st.write(f"**Gender:** {gender}")
 st.write(f"**Bill length:** {bill_length_mm} mm")
