@@ -42,6 +42,16 @@ with st.sidebar:
   st.write(f"**Bill depth:** {bill_depth_mm} mm")
   st.write(f"**flipper length:** {flipper_length_mm} mm")
   st.write(f"**body mass:** {body_mass_g} g")
-              
+
+data= {'island',island
+      'bill_length_mm ': bill_length_mm,
+       'bill_depth_mm': bill_depth_mm,
+       'flipper_length_mm': flipper_length_mm,
+       'body_mass_g': body_mass_g,
+       ' gender' :  gender }
+
+input_df=pd.Dataframe(data, index[0])
+       
+
 
 
