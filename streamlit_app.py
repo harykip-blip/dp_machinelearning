@@ -34,5 +34,5 @@ with st.sidebar:
   st.header("Your Selected Inputs")
   st.write(f"**Island:** {island}")
   st.write(f"**Gender:** {gender}")
-    st.write(f"**Bill length:** {bill_length_mm} mm")
+  st.write(f"**Bill length:** {bill_length_mm} mm")
               
